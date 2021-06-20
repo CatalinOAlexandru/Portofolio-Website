@@ -168,6 +168,13 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Technology Internship Experience 2021",
+      company: "Bright Network",
+      companylogo: require("./assets/images/brightnetwork.jpg"),
+      date: "June 2021 – June 2021",
+      desc: "Virtual Internship. To be finalised."
+    },
+    {
       role: "Data Analytics Consulting Virtual Internship",
       company: "KPMG",
       companylogo: require("./assets/images/kpmg.jpg"),
@@ -182,11 +189,11 @@ const workExperiences = {
       desc: "Helping and leading students in understanding robots and how to build them. We, as a society, recreate Robot Wars, and we aim to take part in a national competition like PiWars. In addition, we were discussing and implementing different algorithms for the robots."
     },
     {
-      role: "Technology Internship Experience",
+      role: "Technology Internship Experience 2020",
       company: "Bright Network",
       companylogo: require("./assets/images/brightnetwork.jpg"),
       date: "June 2020 – June 2020",
-      desc: "Virtual Internship, where I had the opportunity to learn technology from big leading companies such as Google, Amazon, Accenture, Bloomberg, Goldman Sachs, Lloyds Bank, Vodafone, gsk, pwc, and more. After learning how a project is organized in these companies, we worked on a work sample specifying the stages and software proposal for a facial recognition feature in bank applications."
+      desc: "Virtual Internship, where I had the opportunity to learn about technology from big leading companies such as Google, Amazon, Accenture, Bloomberg, Goldman Sachs, Lloyds Bank, Vodafone, gsk, pwc, and more. After learning how a project is organized in these companies, we worked on a work sample specifying the stages and software proposal for a facial recognition feature in bank applications."
     },
     {
       role: "Teaching Assistant",
@@ -223,6 +230,7 @@ const bigProjects = {
       image: require("./assets/images/qmul.jpg"),
       projectName: "Peer Assisted Study Support",
       projectDesc: "PASS is a course-based mentoring scheme, run for students by students. It gives first-years the opportunity to discuss study-related problems and get general advice from higher-year undergraduates in their subject. My task was to collaborate with a small group of people to provide face-to-face support with 1st-year students who require help in any module we have experience.",
+      projectDate: "April - June",
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -235,6 +243,7 @@ const bigProjects = {
       image: require("./assets/images/nvidia.png"),
       projectName: "GeForce Now Tester",
       projectDesc: "Testing one of their new unreleased software (at that time), sharing feedback with the developers and giving my opinion about potential features.",
+      projectDate: "April - June",
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -247,6 +256,7 @@ const bigProjects = {
       image: require("./assets/images/ubisoft.png"),
       projectName: "Game Tester",
       projectDesc: "Following the past closed testing in June, Ubisoft invited us again to test one of the games still in development, and provide update feedback. The game received a high number of improvements and it was great to see some of the community recommendations being implemented.",
+      projectDate: "April - June",
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -259,6 +269,7 @@ const bigProjects = {
       image: require("./assets/images/google.png"),
       projectName: "Google Maps Mobile App Tester",
       projectDesc: "Being part of Google's Local Guide programme, I was offered the opportunity to test and share my feedback on a new unreleased AR feature used for guided walking in Google Maps.",
+      projectDate: "April - June",
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -271,6 +282,7 @@ const bigProjects = {
       image: require("./assets/images/ubisoft.png"),
       projectName: "Game Tester",
       projectDesc: "Part of the online technical test team which tested the mechanics and features of one of the Ubisoft's unreleased games. We provided valuable feedback to the developers which were part of the community and discussed the most voted changes requested by the testers.",
+      projectDate: "April - June",
       // footerLink: [
       //   {
       //     name: "Visit Website",
