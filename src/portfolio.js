@@ -14,7 +14,7 @@ const greeting = {
   username: "Cãtãlin Ovidiu Alexandru",
   title: "Hello everyone, I'm Alex",
   subTitle: emoji(
-    "A passionate Artificial Inteligence Developer 🧠 having experience with neural network, computer vision, software development and more."
+    "A passionate Artificial Inteligence Developer 🧠 having experience with neural networks, computer vision, software development and more."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1FpMTXfu4Q_k4YEHfopnW71Ip2avXl-0q/view?usp=sharing",
@@ -229,38 +229,38 @@ const bigProjects = {
     {
       image: require("./assets/images/qmul.jpg"),
       projectName: "Peer Assisted Study Support",
-      projectDesc: "PASS is a course-based mentoring scheme, run for students by students. It gives first-years the opportunity to discuss study-related problems and get general advice from higher-year undergraduates in their subject. My task was to collaborate with a small group of people to provide face-to-face support with 1st-year students who require help in any module we have experience.",
-      projectDate: "April - June",
-      // footerLink: [
-      //   {
-      //     name: "Visit Website",
-      //     url: "http://saayahealth.com/"
-      //   }
-      //   //  you can add extra buttons here.
-      // ]
+      projectDesc: "PASS is a course-based mentoring scheme, run for students by students. My task was to collaborate with a small group of people to provide face-to-face support for 1st-year students who require help in any module we have experience.",
+      projectDate: "Oct 2018 - Apr 2020",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.qmul.ac.uk/outreach/our-activities/pass/"
+        }
+        //  you can add extra buttons here.
+      ]
     },
     {
       image: require("./assets/images/nvidia.png"),
       projectName: "GeForce Now Tester",
       projectDesc: "Testing one of their new unreleased software (at that time), sharing feedback with the developers and giving my opinion about potential features.",
-      projectDate: "April - June",
-      // footerLink: [
-      //   {
-      //     name: "Visit Website",
-      //     url: "http://saayahealth.com/"
-      //   }
-      //   //  you can add extra buttons here.
-      // ]
+      projectDate: "Aug 2018 - Feb 2020",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.nvidia.com/en-gb/geforce-now/"
+        }
+        //  you can add extra buttons here.
+      ]
     },
     {
       image: require("./assets/images/ubisoft.png"),
       projectName: "Game Tester",
-      projectDesc: "Following the past closed testing in June, Ubisoft invited us again to test one of the games still in development, and provide update feedback. The game received a high number of improvements and it was great to see some of the community recommendations being implemented.",
-      projectDate: "April - June",
+      projectDesc: "Following the past closed testing in June, Ubisoft invited us again to test one of the games still in development (NDA), and provide update feedback. The game received a high number of improvements and it was great to see some of the community recommendations being implemented.",
+      projectDate: "September 2019",
       // footerLink: [
       //   {
       //     name: "Visit Website",
-      //     url: "http://saayahealth.com/"
+      //     url: ""
       //   }
       //   //  you can add extra buttons here.
       // ]
@@ -269,24 +269,24 @@ const bigProjects = {
       image: require("./assets/images/google.png"),
       projectName: "Google Maps Mobile App Tester",
       projectDesc: "Being part of Google's Local Guide programme, I was offered the opportunity to test and share my feedback on a new unreleased AR feature used for guided walking in Google Maps.",
-      projectDate: "April - June",
-      // footerLink: [
-      //   {
-      //     name: "Visit Website",
-      //     url: "http://saayahealth.com/"
-      //   }
-      //   //  you can add extra buttons here.
-      // ]
+      projectDate: "March 2019",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://maps.google.com/localguides/"
+        }
+        //  you can add extra buttons here.
+      ]
     },
     {
       image: require("./assets/images/ubisoft.png"),
       projectName: "Game Tester",
-      projectDesc: "Part of the online technical test team which tested the mechanics and features of one of the Ubisoft's unreleased games. We provided valuable feedback to the developers which were part of the community and discussed the most voted changes requested by the testers.",
-      projectDate: "April - June",
+      projectDesc: "Part of the online technical test team which tested the mechanics and features of one of the Ubisoft's unreleased games (NDA). We provided valuable feedback to the developers which were part of the community and discussed the most voted changes requested by the testers.",
+      projectDate: "June 2019",
       // footerLink: [
       //   {
       //     name: "Visit Website",
-      //     url: "http://nextu.se/"
+      //     url: ""
       //   }
       // ]
     }
@@ -311,15 +311,15 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: ""
         },
         {
           name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          url: ""
         },
         {
           name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: ""
         }
       ]
     },
@@ -331,7 +331,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          url: ""
         }
       ]
     },
@@ -344,7 +344,7 @@ const achievementSection = {
         {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: ""
         }
       ]
     }
@@ -361,13 +361,13 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      url: "",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      url: "h",
       title: "Why REACT is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
@@ -388,8 +388,8 @@ const talkSection = {
     {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      slides_url: "",
+      event_url: ""
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -403,7 +403,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    ""
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -412,7 +412,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "0258",
+  number: "",
   email_address: "catalin97alex@gmail.com"
 };
 
