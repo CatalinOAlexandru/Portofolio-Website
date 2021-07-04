@@ -17,7 +17,7 @@ const greeting = {
     "A passionate Artificial Inteligence Developer 🧠 having experience with neural networks, computer vision, software development and more."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1FpMTXfu4Q_k4YEHfopnW71Ip2avXl-0q/view?usp=sharing",
+    "https://drive.google.com/file/d/1Qi31urM-rM5Higy3wsf-kw-Hc8lrrZXg/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -172,7 +172,7 @@ const workExperiences = {
       company: "Bright Network",
       companylogo: require("./assets/images/brightnetwork.jpg"),
       date: "June 2021 – June 2021",
-      desc: "Virtual Internship. To be finalised."
+      desc: "Virtual Internship. Learnt about design models, IoT, software testing, managing from companies such as Google, Amazon, Vodafone, and more. I completed a Google Challenge for a YouTube CLI simulator."
     },
     {
       role: "Data Analytics Consulting Virtual Internship",
@@ -412,7 +412,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "",
+  number: "07477671392",
   email_address: "catalin97alex@gmail.com"
 };
 
