@@ -17,7 +17,7 @@ const greeting = {
     "A passionate Artificial Inteligence Developer 🧠 having experience with neural networks, computer vision, software development and more."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Qi31urM-rM5Higy3wsf-kw-Hc8lrrZXg/view?usp=sharing",
+    "https://drive.google.com/file/d/14_NAhyxDGqG5PaXAdP6F-sH8UrzYkyTV/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -117,18 +117,18 @@ const educationInfo = {
     {
       schoolName: "University College London",
       logo: require("./assets/images/ucl2.png"),
-      subHeader: "Master of Science in Computer Graphics, Vision and Imaging (Predicted First Class)",
+      subHeader: "Master of Science in Computer Graphics, Vision and Imaging (Predicted Distinction Degree)",
       duration: "September 2020 - September 2021",
       desc: "Studied the following modules and currently working on the following thesis:",
       descBullets: [
         "Modules: Introduction to Machine Learning, Machine Learning for Visual Computing, Virtual Environments, Acquisition and Processing of 3D Geometry, Robot Vision and Navigation, Machine Vision, Information Processing in Medical Imaging, Computational Modelling for Biomedical Imaging",
-        "Thesis: Impact of Foveated Super-Resolution on Histological Images"
+        "Thesis: Patch Configuration in Super-Resolution Applied to Medical Histology Images"
       ]
     },
     {
       schoolName: "Queen Mary University of London",
       logo: require("./assets/images/qmul.jpg"),
-      subHeader: "Bachelor of Science with Honours in Computer Science (First Class)",
+      subHeader: "Bachelor of Science with Honours in Computer Science (First Class Degree)",
       duration: "September 2017 - June 2020",
       desc: "First class student who worked as a teaching assistant for 2 year and has been the vice-president of the AI & Robotics Society. I studied the following modules and worked on the following dissertation:",
       descBullets: [
