@@ -17,7 +17,7 @@ const greeting = {
     "A passionate Artificial Inteligence Developer 🧠 having experience with neural networks, computer vision, software development and more."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/14_NAhyxDGqG5PaXAdP6F-sH8UrzYkyTV/view?usp=sharing",
+    "https://www.linkedin.com/in/c-alexandru/",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -26,10 +26,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/CatalinOAlexandru",
   linkedin: "https://www.linkedin.com/in/c-alexandru",
-  gmail: "catalin97alex@gmail.com",
-  facebook: "https://www.facebook.com/co.alexandru",
-  instagram: "https://www.instagram.com/icatalinalex",
-  twitter: "https://twitter.com/icatalinalex",
+  mail: "alex97catalin@yahoo.com",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -38,7 +35,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Currently in process to finish my Master Degree and looking forward to apply all the skills I gained over the years!",
+  subTitle: "Currently working as a Data Engineer, but my knowledge and experience gained over multiple years varies into multiple fields!",
   skills: [
     emoji("⚡ Develop neural network models for a wide area of projects"),
     emoji("⚡ Create object oriented software from start to finish"),
@@ -104,6 +101,18 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "raspberry-pi",
       fontAwesomeClassname: "fab fa-raspberry-pi"
+    },
+    {
+      skillName: "CAD",
+      fontAwesomeClassname: "fas fa-cogs"
+    },
+    {
+      skillName: "CFD",
+      fontAwesomeClassname: "fas fa-water"
+    },
+    {
+      skillName: "Meshing",
+      fontAwesomeClassname: "fas fa-cubes"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -116,8 +125,8 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University College London",
-      logo: require("./assets/images/ucl2.png"),
-      subHeader: "Master of Science in Computer Graphics, Vision and Imaging (Predicted Distinction Degree)",
+      logo: require("./assets/images/ucl3.jpeg"),
+      subHeader: "Master of Science in Computer Graphics, Vision and Imaging (Distinction)",
       duration: "September 2020 - September 2021",
       desc: "Studied the following modules and currently working on the following thesis:",
       descBullets: [
@@ -128,7 +137,7 @@ const educationInfo = {
     {
       schoolName: "Queen Mary University of London",
       logo: require("./assets/images/qmul.jpg"),
-      subHeader: "Bachelor of Science with Honours in Computer Science (First Class Degree)",
+      subHeader: "Bachelor of Science with Honours in Computer Science (First Class)",
       duration: "September 2017 - June 2020",
       desc: "First class student who worked as a teaching assistant for 2 year and has been the vice-president of the AI & Robotics Society. I studied the following modules and worked on the following dissertation:",
       descBullets: [
@@ -136,7 +145,7 @@ const educationInfo = {
         "2nd Year: Algorithms and Data Structures; Database Systems; Graphical User Interfaces; Internet Protocols and Applications; Operating Systems; Probability and Matrices; Software Engineering",
         "3rd Year: Big Data Processing; Computability Complexity and Algorithms; Computer Graphics; Image Processing; Digital Media and Social Networks; Multi-Platform Game Development",
         "Dissertation: Monocular depth estimation and uses in UAVs"
-        ]
+      ]
     }
   ]
 };
@@ -167,6 +176,13 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Data Engineer",
+      company: "PhysicsX",
+      companylogo: require("./assets/images/physicsx.jpg"),
+      date: "November 2021 – Present",
+      desc: "Doing magic and a lot of REDACTED stuff."
+    },
     {
       role: "Technology Internship Experience 2021",
       company: "Bright Network",
@@ -341,7 +357,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: ""
@@ -412,14 +428,13 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "07477671392",
-  email_address: "catalin97alex@gmail.com"
+  email_address: "alex97catalin@yahoo.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "icatalinalex", //Replace "twitter" with your twitter username without @
+  userName: "twitter", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
 };
 

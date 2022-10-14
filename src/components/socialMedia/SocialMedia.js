@@ -1,6 +1,6 @@
 import React from "react";
 import "./SocialMedia.scss";
-import {socialMediaLinks} from "../../portfolio";
+import { socialMediaLinks } from "../../portfolio";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -40,6 +40,18 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-google"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.mail ? (
+        <a
+          href={`mailto:${socialMediaLinks.mail}`}
+          className="icon-button google"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-at"></i>
           <span></span>
         </a>
       ) : null}
