@@ -35,7 +35,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Currently working as a Data Engineer, but my knowledge and experience gained over multiple years varies into multiple fields!",
+  subTitle: "Currently working as an Applied Machine Learning Engineer, but my knowledge and experience gained over multiple years varies into multiple fields!",
   skills: [
     emoji("⚡ Develop neural network models for a wide area of projects"),
     emoji("⚡ Create object oriented software from start to finish"),
@@ -177,11 +177,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Data Engineer",
+      role: "Applied Machine Learning Engineer",
+      company: "Augur Initiative",
+      companylogo: null, // TODO: add Augur logo to src/assets/images and require() it here
+      date: "November 2025 – Present",
+      desc: "Working on cutting edge computer vision models for the CCTV industry, where we build the best product for detection, tracking, and behaviour analysis. Working closely with engineers and the deployment team to help build a universal product which works for everyone. As an Applied MLE, I sit in the middle of both product and delivery teams and make things happen for production, bringing rough models and shaping them into good, production-ready tools."
+    },
+    {
+      role: "Machine Learning Engineer",
       company: "PhysicsX",
       companylogo: require("./assets/images/physicsx.jpg"),
-      date: "November 2021 – Present",
-      desc: "Doing magic and a lot of REDACTED stuff."
+      date: "November 2021 – November 2025",
+      desc: "Founding engineer, 2nd engineering hire. Helped to grow the company from 4 people to ~250 and a valuation of ~$1B. Bespoke end-to-end pipelines, data engineering on geometries, meshes, and point clouds, software engineering with best practices, Machine Learning magic, and Data Science."
     },
     {
       role: "Technology Internship Experience 2021",
