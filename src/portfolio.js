@@ -179,14 +179,14 @@ const workExperiences = {
     {
       role: "Applied Machine Learning Engineer",
       company: "Augur Initiative",
-      companylogo: null, // TODO: add Augur logo to src/assets/images and require() it here
+      companylogo: require("./assets/images/augur.png"),
       date: "November 2025 – Present",
       desc: "Working on cutting edge computer vision models for the CCTV industry, where we build the best product for detection, tracking, and behaviour analysis. Working closely with engineers and the deployment team to help build a universal product which works for everyone. As an Applied MLE, I sit in the middle of both product and delivery teams and make things happen for production, bringing rough models and shaping them into good, production-ready tools."
     },
     {
       role: "Machine Learning Engineer",
       company: "PhysicsX",
-      companylogo: require("./assets/images/physicsx.jpg"),
+      companylogo: require("./assets/images/physicsx.png"),
       date: "November 2021 – November 2025",
       desc: "Founding engineer, 2nd engineering hire. Helped to grow the company from 4 people to ~250 and a valuation of ~$1B. Bespoke end-to-end pipelines, data engineering on geometries, meshes, and point clouds, software engineering with best practices, Machine Learning magic, and Data Science."
     },
